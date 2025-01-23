@@ -4,10 +4,10 @@
 *.iml
 *.ipr
 *.jar
+*.log
 
 ### other ###
 target/
 /out/
 /META-INF/git
-src/test/logs/log.log
 
