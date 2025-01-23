@@ -1,10 +1,10 @@
 import asserts.AssertWithLog;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import pages.MainPage;
+import tools.GenerateRandoms;
 import webdriver.WebDriverFactory;
 
 
@@ -14,7 +14,7 @@ public class First_Test {
     private static final Logger logger = LogManager.getLogger(First_Test.class);
     WebDriver driver;
     WebDriverFactory webDriverFactory = new WebDriverFactory();
-
+    GenerateRandoms generateRandoms = new GenerateRandoms();
 
     //подключаем класс-обёртку, объединяющую логгирование и assertTrue
     AssertWithLog assertWithLog = null;
@@ -37,10 +37,10 @@ public class First_Test {
     @Test
     @DisplayName("Первый тест домашки: поле ввода")
     void ifEqualsInputText()  {
-        String checkingText = "ОТУС";
-        mainPage.writeSomeTextIntoInput(checkingText);
+        String someText = generateRandoms.generateString(12);
+        mainPage.writeSomeTextIntoInput(someText);
         String textValue = mainPage.getTextFromInput();
-        assertWithLog.assertWithLog( checkingText.equals(textValue) );
+        assertWithLog.assertWithLog( someText.equals(textValue) );
     }
 
 

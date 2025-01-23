@@ -1,18 +1,14 @@
 package pages;
 
-//import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import waiters.StandartWaiter;
 
 public class MainPage extends AbstractPage{
 
-    WebDriver driver;
-    StandartWaiter standartWaiter;
 
     public MainPage(WebDriver driver) {
-        this.driver = driver;
-        standartWaiter = new StandartWaiter(driver);
+        super(driver);
     }
 
     @Override
@@ -35,8 +31,8 @@ public class MainPage extends AbstractPage{
 
 
 
-    public void writeSomeTextIntoInput (String checkingText) {
-        driver.findElement(textInputId).sendKeys(checkingText);
+    public void writeSomeTextIntoInput (String someText) {
+        driver.findElement(textInputId).sendKeys(someText);
     }
 
     public String getTextFromInput () {

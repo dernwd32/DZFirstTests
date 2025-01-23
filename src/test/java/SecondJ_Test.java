@@ -7,12 +7,14 @@ import org.openqa.selenium.WebDriver;
 import pages.MainPage;
 import webdriver.WebDriverFactory;
 
+import java.util.ArrayList;
+
 import static org.junit.jupiter.api.Assertions.assertAll;
 
 
-public class Second_Test {
+public class SecondJ_Test {
     //подключаем логгер
-    private static final Logger logger = LogManager.getLogger(Second_Test.class);
+    private static final Logger logger = LogManager.getLogger(SecondJ_Test.class);
     WebDriver driver;
     WebDriverFactory webDriverFactory = new WebDriverFactory();
 
@@ -40,31 +42,12 @@ public class Second_Test {
     @DisplayName("Второй тест домашки: модалка")
     void ifModalShowAndHideIsCorrect()  {
 
-        //видимость до открытия
-        boolean invisibleBeforeOpening = mainPage.isInvisibleMyModal();
-
-
+        softAssertions.assertThat( mainPage.isInvisibleMyModal()).isTrue();
         mainPage.clickOpenModal();
-
-        //видимость после открытия
-        boolean visibleAfterOpening = mainPage.isVisibleMyModal();
-
+        softAssertions.assertThat( mainPage.isVisibleMyModal()).isTrue();
         mainPage.clickCloseModal();
-
-        //видимость после закрытия
-        boolean invisibleAfterClosing = mainPage.isInvisibleMyModal();
-
-        assertAll(
-                () -> assertWithLog.assertWithLog( invisibleBeforeOpening,
-                        "ifModalShowAndHideIsCorrect > invisibleBeforeOpening"),
-
-                () -> assertWithLog.assertWithLog( visibleAfterOpening,
-                        "ifModalShowAndHideIsCorrect > visibleAfterOpening"),
-
-                () -> assertWithLog.assertWithLog( invisibleAfterClosing,
-                        "ifModalShowAndHideIsCorrect > invisibleAfterClosing")
-        );
-
+        softAssertions.assertThat( mainPage.isInvisibleMyModal()).isTrue();
+        softAssertions.assertAll();
     }
 
 

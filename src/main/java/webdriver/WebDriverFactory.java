@@ -23,18 +23,17 @@ public class WebDriverFactory implements IWebDriver{
         String browser = BROWSER_DRIVER;
         if (browser == null) browser = "firefox";
 
-        //Если начинается с дефиса - передаём в options браузера, иначе - через driver.manage
-        String args = "";
-        if (mode.charAt(0) == '-') args = mode;
-
         switch (browser) {
 
             case "firefox" -> {
-                FirefoxOptions options = new FirefoxOptions().addArguments(args);
+                FirefoxOptions options = new FirefoxOptions();
+                //Если начинается с дефиса - передаём в options браузера, иначе - через driver.manage
+                if (mode.charAt(0) == '-') options.addArguments(mode);
                 driver = new FirefoxDriver(options);
             }
             case "chrome" -> {
-                ChromeOptions options = new ChromeOptions().addArguments(args);
+                ChromeOptions options = new ChromeOptions();
+                if (mode.charAt(0) == '-') options.addArguments(mode);
                 driver = new ChromeDriver(options);
             }
             default -> {
@@ -43,8 +42,10 @@ public class WebDriverFactory implements IWebDriver{
 
         }
 
-        //если будет больше режимов, передаваемых в driver.manage - сделаем в switch'e
-        if (mode.equals("maximize")) driver.manage().window().maximize();
+        //режимы, передаваемые в driver.manage без "-" в начале
+        switch (mode) {
+            case "maximize" -> driver.manage().window().maximize();
+        }
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(DEFAULT_IMPLICITLY_DURATION));
 
