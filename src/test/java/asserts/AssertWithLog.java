@@ -1,6 +1,7 @@
 package asserts;
 
 import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -54,6 +55,7 @@ public class AssertWithLog {
     public void assertWithLog(boolean condition, String message, Logger logger, String currentBrowser) {
 
 
+
         message = String.format("%-75s",
                         String.format("%-11s", "[" + currentBrowser + "]")
                         + "-> "
@@ -67,6 +69,14 @@ public class AssertWithLog {
         else logger.warn(messageFail);
 
         assertTrue(condition);
+
+//        softAssertions.assertThat(result.getId()).isNull();
+//
+//        softAssertions.assertThat(result.getType()).isEqualTo(1);
+//
+//        softAssertions.assertThat(result.getStatus()).isEqualTo("DRAFT");
+//
+//        softAssertions.assertAll();
 
     }
 }

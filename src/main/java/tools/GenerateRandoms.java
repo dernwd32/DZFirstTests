@@ -6,9 +6,7 @@ public class GenerateRandoms {
 
     public String generateString( int length )
     {
-        boolean useLetters = true;
-        boolean useNumbers = false;
-        return RandomStringUtils.random(length, useLetters, useNumbers);
+        return RandomStringUtils.random(length, true, false);
      }
 
 

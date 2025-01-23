@@ -30,6 +30,7 @@ public class First_Test {
         mainPage = new MainPage(driver);
         assertWithLog = new AssertWithLog(driver, logger);
         mainPage.open();
+
     }
 
     //  @Test

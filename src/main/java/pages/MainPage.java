@@ -1,5 +1,6 @@
 package pages;
 
+//import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import waiters.StandartWaiter;
@@ -33,7 +34,7 @@ public class MainPage extends AbstractPage{
     By hideBtnId = By.id("toggleMessage");
 
 
-   // @Step "blablabla"
+
     public void writeSomeTextIntoInput (String checkingText) {
         driver.findElement(textInputId).sendKeys(checkingText);
     }
@@ -57,8 +58,6 @@ public class MainPage extends AbstractPage{
     public void clickCloseModal() {
         driver.findElement(closeModalId).click();
     }
-
-    //заводим тестовые переменные
 
     public void writeIntoInputName(String someName) {
         driver.findElement(inputNameId).sendKeys(someName);

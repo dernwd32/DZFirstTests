@@ -21,7 +21,7 @@
         <maven.log4j2.version>1.8.3</maven.log4j2.version>
         <surefire.plugin.version>3.5.2</surefire.plugin.version>
         <maven.compiler.plugin>3.13.0</maven.compiler.plugin>
-
+        <assertJ.version>3.27.3</assertJ.version>
 
     </properties>
 
@@ -33,14 +33,12 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${maven.junit-api.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-params</artifactId>
             <version>${maven.junit-param.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -55,7 +53,6 @@
             <groupId>io.basc.framework</groupId>
             <artifactId>log4j2</artifactId>
             <version>${maven.log4j2.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -75,6 +72,13 @@
             <version>${maven.log4j.version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertJ.version}</version>
+        </dependency>
+
     </dependencies>
     <!-- maven surefire plugin + maven compiler plugin-->
     <build>
@@ -83,10 +87,12 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven.compiler.plugin}</version>
-               <!-- <configuration>
+               <!--
+               <configuration>
                     <target>maven.compiler.target</target>
                     <source>maven.compiler.source</source>
-                </configuration>-->
+                </configuration>
+                -->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

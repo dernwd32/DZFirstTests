@@ -43,6 +43,7 @@ public class WebDriverFactory implements IWebDriver{
 
         }
 
+        //если будет больше режимов, передаваемых в driver.manage - сделаем в switch'e
         if (mode.equals("maximize")) driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(DEFAULT_IMPLICITLY_DURATION));
