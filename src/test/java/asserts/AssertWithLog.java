@@ -70,13 +70,5 @@ public class AssertWithLog {
 
         assertTrue(condition);
 
-//        softAssertions.assertThat(result.getId()).isNull();
-//
-//        softAssertions.assertThat(result.getType()).isEqualTo(1);
-//
-//        softAssertions.assertThat(result.getStatus()).isEqualTo("DRAFT");
-//
-//        softAssertions.assertAll();
-
     }
 }
