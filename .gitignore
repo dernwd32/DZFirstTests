@@ -9,5 +9,5 @@
 target/
 /out/
 /META-INF/git
-/src/test/logs/log.log
+src/test/logs/log.log
 
