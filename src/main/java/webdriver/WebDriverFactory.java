@@ -17,20 +17,24 @@ public class WebDriverFactory implements IWebDriver{
 
         WebDriver driver;
 
-        /* Эти две лишние строчки только для того, чтоб  иметь возможность запускать не из консоли и без конфига
+        /* Эти две "лишние" строчки только для того, чтоб  иметь возможность запускать не из консоли и без конфига
          "неправильной зеленой стрелочкой теста" для удобства, для отладки. Потом можно выбросить их и switch'ить
          константу BROWSER_DRIVER (хоть это и странно само по себе) */
         String browser = BROWSER_DRIVER;
         if (browser == null) browser = "firefox";
 
+        //Если начинается с дефиса - передаём в options браузера, иначе - через driver.manage
+        String args = "";
+        if (mode.charAt(0) == '-') args = mode;
+
         switch (browser) {
 
             case "firefox" -> {
-                FirefoxOptions options = new FirefoxOptions().addArguments(mode);
+                FirefoxOptions options = new FirefoxOptions().addArguments(args);
                 driver = new FirefoxDriver(options);
             }
             case "chrome" -> {
-                ChromeOptions options = new ChromeOptions().addArguments(mode);
+                ChromeOptions options = new ChromeOptions().addArguments(args);
                 driver = new ChromeDriver(options);
             }
             default -> {
@@ -39,7 +43,7 @@ public class WebDriverFactory implements IWebDriver{
 
         }
 
-        if (mode.equals("-maximize")) driver.manage().window().maximize();
+        if (mode.equals("maximize")) driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(DEFAULT_IMPLICITLY_DURATION));
 

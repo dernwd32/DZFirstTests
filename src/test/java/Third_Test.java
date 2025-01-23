@@ -27,7 +27,7 @@ public class Third_Test {
     void beforeEach() {
         //передаем аргументы запуска и получаем готовый вебдрайвер по заданным параметрам
         driver = webDriverFactory.webDriverFactory(
-                "-maximize"
+                "maximize"
         );
 
         mainPage = new MainPage(driver);
