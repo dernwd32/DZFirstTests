@@ -1,0 +1,413 @@
+2025-01-15 23:48:30 INFO  First_Test - [Chrome]     -> ifTextGotValuesFromForm > PASS
+2025-01-15 23:48:33 INFO  First_Test - [Firefox]    -> ifTextGotValuesFromForm > PASS
+2025-01-15 23:48:34 INFO  First_Test - [Chrome]     -> ifEqualsInputText > PASS
+2025-01-15 23:48:36 INFO  First_Test - [Firefox]    -> ifEqualsInputText > PASS
+2025-01-15 23:48:38 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > visibleBeforeOpening > PASS
+2025-01-15 23:48:38 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-15 23:48:38 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-15 23:48:41 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > visibleBeforeOpening > PASS
+2025-01-15 23:48:41 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-15 23:48:41 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 00:06:32 INFO  First_Test - [Chrome]     -> ifTextGotValuesFromForm > PASS
+2025-01-16 00:06:35 INFO  First_Test - [Firefox]    -> ifTextGotValuesFromForm > PASS
+2025-01-16 00:06:36 INFO  First_Test - [Chrome]     -> ifEqualsInputText > PASS
+2025-01-16 00:06:38 INFO  First_Test - [Firefox]    -> ifEqualsInputText > PASS
+2025-01-16 00:06:40 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 00:06:40 WARN  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > visibleAfterOpening > FAIL
+2025-01-16 00:06:40 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 00:06:43 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 00:06:43 WARN  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > visibleAfterOpening > FAIL
+2025-01-16 00:06:43 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 01:00:56 INFO  First_Test - Chrome       -> true > PASS
+2025-01-16 01:00:58 INFO  First_Test - Chrome       -> true > PASS
+2025-01-16 01:04:37 INFO  First_Test - Chrome       -> ifEqualsInputText > PASS
+2025-01-16 01:04:39 INFO  First_Test - Chrome       -> ifEqualsInputText > PASS
+2025-01-16 01:08:56 INFO  First_Test - Chrome       -> ifEqualsInputText > PASS
+2025-01-16 01:08:58 INFO  First_Test - Chrome       -> ifEqualsInputText > PASS
+2025-01-16 01:09:27 INFO  First_Test - Chrome       -> ifEqualsInputText > PASS
+2025-01-16 01:09:29 INFO  First_Test - Chrome       -> ifEqualsInputText > PASS
+2025-01-16 01:11:35 INFO  First_Test - [Chrome]     -> ifEqualsInputText > PASS
+2025-01-16 01:11:37 INFO  First_Test - [Firefox]    -> ifEqualsInputText > PASS
+2025-01-16 01:13:59 INFO  First_Test - [Chrome]     -> ifEqualsInputText > PASS
+2025-01-16 01:14:01 INFO  First_Test - [Firefox]    -> ifEqualsInputText > PASS
+2025-01-16 01:17:03 INFO  First_Test - [Chrome]     -> ifTextGotValuesFromForm > PASS
+2025-01-16 01:17:06 INFO  First_Test - [Firefox]    -> ifTextGotValuesFromForm > PASS
+2025-01-16 01:17:08 INFO  First_Test - [Chrome]     -> ifEqualsInputText > PASS
+2025-01-16 01:17:10 INFO  First_Test - [Firefox]    -> ifEqualsInputText > PASS
+2025-01-16 01:17:11 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 01:17:11 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 01:17:11 INFO  First_Test - [Chrome]     -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 01:17:14 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 01:17:14 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 01:17:14 INFO  First_Test - [Firefox]    -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 01:19:39 INFO  First_Test - [Chrome]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 01:19:42 INFO  First_Test - [Firefox] -> ifTextGotValuesFromForm > PASS
+2025-01-16 01:19:44 INFO  First_Test - [Chrome]  -> ifEqualsInputText > PASS
+2025-01-16 01:19:46 INFO  First_Test - [Firefox] -> ifEqualsInputText > PASS
+2025-01-16 01:19:48 INFO  First_Test - [Chrome]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 01:19:48 INFO  First_Test - [Chrome]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 01:19:48 INFO  First_Test - [Chrome]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 01:19:51 INFO  First_Test - [Firefox] -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 01:19:51 INFO  First_Test - [Firefox] -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 01:19:51 INFO  First_Test - [Firefox] -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 01:20:24 INFO  First_Test - [Chrome]   -> ifEqualsInputText > PASS
+2025-01-16 01:20:26 INFO  First_Test - [Firefox]  -> ifEqualsInputText > PASS
+2025-01-16 02:11:50 INFO  First_Test - [Chrome]   -> ifEqualsInputText > PASS
+2025-01-16 02:11:53 INFO  First_Test - [Firefox]  -> ifEqualsInputText > PASS
+2025-01-16 02:15:34 INFO  First_Test - [Chrome]   -> ifEqualsInputText > PASS
+2025-01-16 02:15:37 INFO  First_Test - [Firefox]  -> ifEqualsInputText > PASS
+2025-01-16 02:17:25 INFO  First_Test - chrome     -> ifEqualsInputText > PASS
+2025-01-16 02:17:27 INFO  First_Test - firefox    -> ifEqualsInputText > PASS
+2025-01-16 02:21:49 INFO  First_Test - chrome     -> ifEqualsInputText > PASS
+2025-01-16 02:21:53 INFO  First_Test - firefox    -> ifEqualsInputText > PASS
+2025-01-16 02:23:06 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 02:23:09 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 02:25:29 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 02:25:32 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 02:25:34 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 02:25:36 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 02:25:38 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 02:25:38 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 02:25:38 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 02:25:42 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 02:25:42 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 02:25:42 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 02:54:21 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 02:54:24 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 02:54:26 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 02:54:28 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 02:54:30 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 02:54:30 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 02:54:30 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 02:54:32 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 02:54:32 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 02:54:32 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 09:22:38 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 09:22:42 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 09:22:43 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 09:22:45 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 09:22:47 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 09:22:47 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 09:22:47 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 09:22:50 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 09:22:50 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 09:22:50 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 09:28:08 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 09:28:08 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 09:28:08 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 09:28:11 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 09:28:11 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 09:28:11 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 09:35:00 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 09:35:03 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 09:35:04 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 09:35:06 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 09:35:08 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 09:35:08 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 09:35:08 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 09:35:11 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 09:35:11 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 09:35:11 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 14:16:19 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 14:16:22 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 14:16:24 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 14:16:25 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 14:16:27 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 14:16:27 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 14:16:27 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 14:16:30 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 14:16:30 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 14:16:30 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 14:17:54 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 14:17:57 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 14:17:58 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 14:18:00 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 14:18:02 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 14:18:02 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 14:18:02 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 14:18:05 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 14:18:05 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 14:18:05 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 18:42:18 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 18:42:21 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 18:42:23 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 18:42:25 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 18:42:26 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 18:42:26 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 18:42:26 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 18:42:29 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 18:42:29 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 18:42:29 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 20:07:28 WARN  First_Test - [chrome]   -> ifTextGotValuesFromForm > FAIL
+2025-01-16 20:07:32 WARN  First_Test - [firefox]  -> ifTextGotValuesFromForm > FAIL
+2025-01-16 20:07:50 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > PASS
+2025-01-16 20:07:53 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > PASS
+2025-01-16 20:17:37 WARN  First_Test - [chrome]   -> ifTextGotValuesFromForm > FAIL
+2025-01-16 20:17:39 WARN  First_Test - [firefox]  -> ifTextGotValuesFromForm > FAIL
+2025-01-16 23:03:17 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:03:17 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > PASS
+2025-01-16 23:03:20 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:03:20 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > PASS
+2025-01-16 23:04:02 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:04:02 WARN  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > FAIL
+2025-01-16 23:04:05 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:04:05 WARN  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > FAIL
+2025-01-16 23:10:44 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:10:44 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > PASS
+2025-01-16 23:10:47 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:10:47 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > PASS
+2025-01-16 23:12:47 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:12:47 WARN  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > FAIL
+2025-01-16 23:12:50 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:12:50 WARN  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > FAIL
+2025-01-16 23:13:13 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:13:13 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > PASS
+2025-01-16 23:13:17 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:13:17 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > PASS
+2025-01-16 23:14:42 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:14:42 WARN  First_Test - [chrome]   -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > FAIL
+2025-01-16 23:14:45 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivDisplayed > PASS
+2025-01-16 23:14:45 WARN  First_Test - [firefox]  -> ifTextGotValuesFromForm > isEqualsValuesWhenDivHidden > FAIL
+2025-01-16 23:17:51 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:17:51 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > !ifDivContainsValuesWhenHidden > PASS
+2025-01-16 23:17:54 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:17:54 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > !ifDivContainsValuesWhenHidden > PASS
+2025-01-16 23:19:44 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:19:44 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-16 23:19:47 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:19:47 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-16 23:20:58 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:20:58 WARN  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > FAIL
+2025-01-16 23:21:02 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:21:02 WARN  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > FAIL
+2025-01-16 23:22:10 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:22:10 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-16 23:22:13 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:22:13 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-16 23:42:42 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:42:42 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-16 23:42:45 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-16 23:42:45 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-16 23:42:46 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-16 23:42:48 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-16 23:42:50 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 23:42:50 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 23:42:50 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-16 23:42:53 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-16 23:42:53 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-16 23:42:53 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 01:49:23 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-17 01:49:23 INFO  First_Test - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-17 01:49:27 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-17 01:49:27 INFO  First_Test - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-17 01:49:28 INFO  First_Test - [chrome]   -> ifEqualsInputText > PASS
+2025-01-17 01:49:30 INFO  First_Test - [firefox]  -> ifEqualsInputText > PASS
+2025-01-17 01:49:32 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-17 01:49:32 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-17 01:49:32 INFO  First_Test - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 01:49:35 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-17 01:49:35 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-17 01:49:35 INFO  First_Test - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 09:57:52 INFO  tests.MultipleBrowserAnotherTry - [chrome]   -> ifEqualsInputText > PASS
+2025-01-17 09:59:03 INFO  tests.MultipleBrowserAnotherTry - [chrome]   -> ifEqualsInputText > PASS
+2025-01-17 09:59:23 INFO  tests.MultipleBrowserAnotherTry     - [chrome]   -> ifEqualsInputText > PASS
+2025-01-17 10:00:02 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-17 10:00:02 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-17 10:00:02 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 10:00:05 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-17 10:00:05 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-17 10:00:05 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 10:00:26 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-17 10:00:26 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-17 10:00:26 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 10:00:29 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening > PASS
+2025-01-17 10:00:29 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening > PASS
+2025-01-17 10:00:29 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing > PASS
+2025-01-17 10:00:44 INFO  tests.MultipleBrowserAnotherTry     - [chrome]   -> ifEqualsInputText > PASS
+2025-01-17 11:14:23 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-17 11:14:23 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-17 11:14:26 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed > PASS
+2025-01-17 11:14:26 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden > PASS
+2025-01-17 11:14:55 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed                   > PASS
+2025-01-17 11:14:55 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden                 > PASS
+2025-01-17 11:14:58 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed                   > PASS
+2025-01-17 11:14:58 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden                 > PASS
+2025-01-17 11:15:32 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-17 11:15:32 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-17 11:15:35 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-17 11:15:35 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-17 11:21:09 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-17 11:21:09 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-17 11:21:09 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-17 11:21:12 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-17 11:21:12 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-17 11:21:12 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-17 11:21:23 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-17 11:21:23 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-17 11:21:27 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-17 11:21:27 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-17 11:21:28 INFO  First_Test            - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-17 11:21:30 INFO  First_Test            - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-17 11:21:32 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-17 11:21:32 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-17 11:21:32 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-17 11:21:35 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-17 11:21:35 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-17 11:21:35 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-17 11:23:15 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-17 11:23:15 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-17 11:23:18 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-17 11:23:18 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-17 11:23:20 INFO  First_Test            - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-17 11:23:22 INFO  First_Test            - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-17 11:23:23 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-17 11:23:23 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-17 11:23:23 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-17 11:23:26 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-17 11:23:26 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-17 11:23:26 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-18 20:44:13 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-18 20:44:13 INFO  First_Test            - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-18 20:44:16 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-18 20:44:16 INFO  First_Test            - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-18 20:44:18 INFO  First_Test            - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-18 20:44:19 INFO  First_Test            - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-18 20:44:21 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-18 20:44:21 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-18 20:44:21 INFO  First_Test            - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-18 20:44:24 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-18 20:44:24 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-18 20:44:24 INFO  First_Test            - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-18 20:59:19 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-18 20:59:19 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-18 20:59:21 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-18 20:59:21 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-18 20:59:23 INFO  First_Test                  - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-18 20:59:25 INFO  First_Test                  - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-18 20:59:27 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-18 20:59:27 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-18 20:59:27 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-18 20:59:30 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-18 20:59:30 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-18 20:59:30 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-20 09:32:40 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:32:40 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:32:43 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:32:43 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:33:02 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:33:02 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:33:05 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:33:05 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:33:25 WARN  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > FAIL
+2025-01-20 09:33:25 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:33:28 WARN  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > FAIL
+2025-01-20 09:33:28 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:34:03 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:34:03 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:34:06 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:34:06 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:40:48 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:40:48 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 09:40:51 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 09:40:51 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-20 21:35:02 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 21:35:02 WARN  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > FAIL
+2025-01-20 21:35:10 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-20 21:35:10 WARN  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > FAIL
+2025-01-21 02:04:34 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-21 02:04:34 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-21 02:04:37 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-21 02:04:37 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-21 02:32:49 WARN  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > FAIL
+2025-01-21 09:21:54 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm2 > ifDivMatchesValuesWhenHidden       > PASS
+2025-01-21 09:22:21 WARN  First_Test                  - [firefox]  -> ifTextGotValuesFromForm2 > ifDivMatchesValuesWhenHidden       > FAIL
+2025-01-21 09:23:00 WARN  First_Test                  - [firefox]  -> ifTextGotValuesFromForm2 > ifDivMatchesValuesWhenHidden       > FAIL
+2025-01-21 09:23:41 WARN  First_Test                  - [firefox]  -> ifTextGotValuesFromForm2 > ifDivMatchesValuesWhenHidden       > FAIL
+2025-01-21 21:33:02 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-21 21:33:02 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-21 21:33:06 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-21 21:33:06 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-21 21:33:07 INFO  First_Test                  - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-21 21:33:09 INFO  First_Test                  - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-21 21:33:11 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-21 21:33:11 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-21 21:33:11 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-21 21:33:14 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-21 21:33:14 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-21 21:33:14 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-22 20:07:54 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-22 20:07:54 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-22 20:07:56 INFO  First_Test                  - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-22 20:07:58 INFO  First_Test                  - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-22 20:08:00 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-22 20:08:00 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-22 20:08:00 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-22 20:09:31 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-22 20:09:31 INFO  First_Test                  - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-22 20:09:34 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-22 20:09:34 INFO  First_Test                  - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-22 20:09:35 INFO  First_Test                  - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-22 20:09:37 INFO  First_Test                  - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-22 20:09:39 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-22 20:09:39 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-22 20:09:39 INFO  First_Test                  - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-22 20:09:42 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-22 20:09:42 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-22 20:09:42 INFO  First_Test                  - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-22 23:52:06 INFO  First_Test                  - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-22 23:52:08 INFO  First_Test                  - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-22 23:52:27 INFO  First_Test                  - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-22 23:52:29 INFO  First_Test                  - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 01:41:23 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 01:42:00 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:23:47 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:26:53 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:28:40 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:28:55 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:32:24 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:33:00 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:35:19 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:35:32 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:35:34 INFO  Second_Test                         - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:48:10 INFO  First_Test                          - [firefox]  -> ifEqualsInputText                                             > PASS
+2025-01-23 05:48:24 INFO  Second_Test                         - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 05:48:24 INFO  Second_Test                         - [firefox]  -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 05:48:24 INFO  Second_Test                         - [firefox]  -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 05:48:55 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:49:07 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 05:49:07 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 05:49:07 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 05:51:09 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:51:21 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 05:51:21 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 05:51:21 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 05:52:50 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:52:52 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 05:52:52 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 05:52:52 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 05:59:04 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 05:59:38 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 06:00:47 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 06:00:49 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 06:00:49 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 06:00:49 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 09:29:30 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-23 09:29:30 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-23 09:30:29 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-23 09:30:29 WARN  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > FAIL
+2025-01-23 09:47:21 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-23 09:47:21 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-23 09:49:14 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 09:49:16 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 09:49:16 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 09:49:16 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 09:49:17 INFO  Third_Test                          - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-23 09:49:17 INFO  Third_Test                          - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-23 09:54:42 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-23 09:54:42 INFO  Third_Test                          - [firefox]  -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
+2025-01-23 09:54:57 INFO  First_Test                          - [chrome]   -> ifEqualsInputText                                             > PASS
+2025-01-23 09:54:58 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleBeforeOpening          > PASS
+2025-01-23 09:54:58 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > visibleAfterOpening             > PASS
+2025-01-23 09:54:58 INFO  Second_Test                         - [chrome]   -> ifModalShowAndHideIsCorrect > invisibleAfterClosing           > PASS
+2025-01-23 09:55:00 INFO  Third_Test                          - [chrome]   -> ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed    > PASS
+2025-01-23 09:55:00 INFO  Third_Test                          - [chrome]   -> ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden  > PASS
