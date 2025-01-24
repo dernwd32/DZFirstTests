@@ -4,10 +4,12 @@
 *.iml
 *.ipr
 *.jar
-*.log
+
 
 ### other ###
 target/
 /out/
 /META-INF/git
+*.log
+allure-results/
 
