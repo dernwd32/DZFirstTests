@@ -27,6 +27,7 @@ public class MainPage extends AbstractPage{
     private By inputEmailId = By.id("email");
     private By messageBoxId = By.id("messageBox");
     private By thisFormId = By.id("sampleForm");
+    private By sampleFormSubmitBtnSelector = By.cssSelector("#sampleForm button");
     private By hideBtnId = By.id("toggleMessage");
 
 
@@ -74,6 +75,11 @@ public class MainPage extends AbstractPage{
     @Step("Отправляем форму")
     public void submitForm(){
         driver.findElement(thisFormId).submit();
+    }
+
+    @Step("Отправляем форму, кликая на Отправить")
+    public void clickForSubmitForm(){
+        driver.findElement(sampleFormSubmitBtnSelector).click();
     }
 
     @Step("Получаем текст внутри div'a messageBox")

@@ -50,7 +50,8 @@ public class Third_Test {
 
         mainPage.writeIntoInputName(checkingName);
         mainPage.writeIntoInputEmail(checkingEmail);
-        mainPage.submitForm();
+        mainPage.clickForSubmitForm();
+        //mainPage.submitForm();
         boolean ifDivContainsValuesWhenDisplayed =
                 mainPage.ifMessageBoxMatchesValuesWhichCameFromForm(checkingName, checkingEmail);
 
@@ -62,7 +63,8 @@ public class Third_Test {
         mainPage.writeIntoInputName(checkingName2);
         mainPage.writeIntoInputEmail(checkingEmail2);
         mainPage.clickHideMessageBox();
-        mainPage.submitForm();
+        mainPage.clickForSubmitForm();
+        //mainPage.submitForm();
         // потому что селениум 4 считает, что раз пользователь не видит этих значений, значит их нет.
         // Хотя они есть, и даже в спрятанный блок значения из формы исправно передаются
         boolean ifDivDoesntContainValuesWhenHidden =
