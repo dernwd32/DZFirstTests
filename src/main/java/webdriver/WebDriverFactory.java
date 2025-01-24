@@ -17,13 +17,7 @@ public class WebDriverFactory implements IWebDriver{
 
         WebDriver driver;
 
-        /* Эти две "лишние" строчки только для того, чтоб  иметь возможность запускать не из консоли и без конфига
-         "неправильной зеленой стрелочкой теста" для удобства, для отладки. Потом можно выбросить их и switch'ить
-         константу BROWSER_DRIVER (хоть это и странно само по себе) */
-        String browser = BROWSER_DRIVER;
-        if (browser == null) browser = "firefox";
-
-        switch (browser) {
+        switch (BROWSER_DRIVER) {
 
             case "firefox" -> {
                 FirefoxOptions options = new FirefoxOptions();
@@ -47,7 +41,7 @@ public class WebDriverFactory implements IWebDriver{
             case "maximize" -> driver.manage().window().maximize();
         }
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(DEFAULT_IMPLICITLY_DURATION));
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(DEFAULT_IMPLICITLY_DURATION));
 
         return driver;
     }

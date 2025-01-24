@@ -114,6 +114,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <base.url>https://otus.home.kartushin.su/training.html</base.url>
+                        <waiter.timeout>10000</waiter.timeout>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
