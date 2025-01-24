@@ -57,9 +57,6 @@ public class Third_Test {
         String checkingName2 = faker.name().firstName() + " " + faker.name().lastName();
         String checkingEmail2 = faker.internet().emailAddress();
 
-       // System.out.printf("1: %s / %s \n 2: %s / %s \n", checkingName, checkingEmail, checkingName2, checkingEmail2 );
-
-
         mainPage.clearInputName();
         mainPage.clearInputEmail();
         mainPage.writeIntoInputName(checkingName2);
