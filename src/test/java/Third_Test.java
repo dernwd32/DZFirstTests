@@ -45,7 +45,7 @@ public class Third_Test {
     @DisplayName("Третий тест домашки: отправка формы")
     void ifTextGotValuesFromForm()  {
 
-        String checkingName = faker.name().firstName() + " " + faker.name().lastName();
+        String checkingName = faker.name().name();
         String checkingEmail = faker.internet().emailAddress();
 
         mainPage.writeIntoInputName(checkingName);
@@ -55,7 +55,7 @@ public class Third_Test {
         boolean ifDivContainsValuesWhenDisplayed =
                 mainPage.ifMessageBoxMatchesValuesWhichCameFromForm(checkingName, checkingEmail);
 
-        String checkingName2 = faker.name().firstName() + " " + faker.name().lastName();
+        String checkingName2 = faker.name().name();
         String checkingEmail2 = faker.internet().emailAddress();
 
         mainPage.clearInputName();
