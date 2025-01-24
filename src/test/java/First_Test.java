@@ -10,6 +10,8 @@ import org.openqa.selenium.WebDriver;
 import pages.MainPage;
 import webdriver.WebDriverFactory;
 
+import java.util.Locale;
+
 
 public class First_Test {
     //подключаем логгер
@@ -21,7 +23,7 @@ public class First_Test {
     AssertWithLog assertWithLog = null;
 
     MainPage mainPage = null;
-    Faker faker = new Faker();
+    Faker faker = new Faker(new Locale("ru"));
 
     @BeforeEach
     void beforeEach() {
@@ -40,7 +42,7 @@ public class First_Test {
     @Test
     @DisplayName("Первый тест домашки: поле ввода")
     void ifEqualsInputText()  {
-        String someText = faker.witcher().character();//= generateRandoms.generateString(12);
+        String someText = faker.address().fullAddress() + " " + faker.name().name();//= generateRandoms.generateString(12);
         System.out.println(someText);
 
         mainPage.writeSomeTextIntoInput(someText);
