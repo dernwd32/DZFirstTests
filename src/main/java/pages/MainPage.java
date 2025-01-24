@@ -16,17 +16,17 @@ public class MainPage extends AbstractPage{
     }
 
     //определяем локаторы объектов ДОМа, которыми будем пользоваться
-    protected By textInputId = By.id("textInput");
+    private By textInputId = By.id("textInput");
 
-    protected By closeModalId = By.id("closeModal");
-    protected By myModalId = By.id("myModal");
-    protected By openModalBtnId = By.id("openModalBtn");
+    private By closeModalId = By.id("closeModal");
+    private By myModalId = By.id("myModal");
+    private By openModalBtnId = By.id("openModalBtn");
 
-    protected By inputNameId = By.id("name");
-    protected  By inputEmailId = By.id("email");
-    protected By messageBoxId = By.id("messageBox");
-    protected By thisFormId = By.id("sampleForm");
-    protected  By hideBtnId = By.id("toggleMessage");
+    private By inputNameId = By.id("name");
+    private By inputEmailId = By.id("email");
+    private By messageBoxId = By.id("messageBox");
+    private By thisFormId = By.id("sampleForm");
+    private By hideBtnId = By.id("toggleMessage");
 
 
 
