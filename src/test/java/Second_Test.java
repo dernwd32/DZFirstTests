@@ -70,6 +70,6 @@ public class Second_Test {
 
     @AfterEach
     void tearDown() {
-        driver.close();
+        if (driver != null) driver.close();
     }
 }

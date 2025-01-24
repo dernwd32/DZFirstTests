@@ -1,13 +1,10 @@
 package asserts;
 
 import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class AssertWithLog {
@@ -57,7 +54,7 @@ public class AssertWithLog {
 
 
 
-        message = String.format("%-75s",
+        message = String.format("%-125s",
                         String.format("%-11s", "[" + currentBrowser + "]")
                         + "-> "
                         + message

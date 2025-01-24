@@ -1,12 +1,14 @@
 import asserts.AssertWithLog;
+import com.github.javafaker.Faker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.MainPage;
-import tools.GenerateRandoms;
 import webdriver.WebDriverFactory;
-
 
 
 public class First_Test {
@@ -14,11 +16,12 @@ public class First_Test {
     private static final Logger logger = LogManager.getLogger(First_Test.class);
     WebDriver driver;
     WebDriverFactory webDriverFactory = new WebDriverFactory();
-    GenerateRandoms generateRandoms = new GenerateRandoms();
 
     //подключаем класс-обёртку, объединяющую логгирование и assertTrue
     AssertWithLog assertWithLog = null;
+
     MainPage mainPage = null;
+    Faker faker = new Faker();
 
     @BeforeEach
     void beforeEach() {
@@ -37,15 +40,17 @@ public class First_Test {
     @Test
     @DisplayName("Первый тест домашки: поле ввода")
     void ifEqualsInputText()  {
-        String someText = generateRandoms.generateString(12);
+        String someText = faker.witcher().character();//= generateRandoms.generateString(12);
+        System.out.println(someText);
+
         mainPage.writeSomeTextIntoInput(someText);
         String textValue = mainPage.getTextFromInput();
-        assertWithLog.assertWithLog( someText.equals(textValue) );
+        assertWithLog.assertWithLog( someText.equals(textValue), "ifEqualsInputText: " + someText );
     }
 
 
     @AfterEach
     void tearDown() {
-        driver.close();
+        if (driver != null) driver.close();
     }
 }

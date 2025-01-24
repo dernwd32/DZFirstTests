@@ -2,7 +2,6 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import waiters.StandartWaiter;
 
 public class MainPage extends AbstractPage{
 
@@ -17,17 +16,17 @@ public class MainPage extends AbstractPage{
     }
 
     //определяем локаторы объектов ДОМа, которыми будем пользоваться
-    By textInputId = By.id("textInput");
+    protected By textInputId = By.id("textInput");
 
-    By closeModalId = By.id("closeModal");
-    By myModalId = By.id("myModal");
-    By openModalBtnId = By.id("openModalBtn");
+    protected By closeModalId = By.id("closeModal");
+    protected By myModalId = By.id("myModal");
+    protected By openModalBtnId = By.id("openModalBtn");
 
-    By inputNameId = By.id("name");
-    By inputEmailId = By.id("email");
-    By messageBoxId = By.id("messageBox");
-    By thisFormId = By.id("sampleForm");
-    By hideBtnId = By.id("toggleMessage");
+    protected By inputNameId = By.id("name");
+    protected  By inputEmailId = By.id("email");
+    protected By messageBoxId = By.id("messageBox");
+    protected By thisFormId = By.id("sampleForm");
+    protected  By hideBtnId = By.id("toggleMessage");
 
 
 

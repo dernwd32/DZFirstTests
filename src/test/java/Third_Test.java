@@ -1,11 +1,16 @@
 import asserts.AssertWithLog;
+import com.github.javafaker.Faker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.MainPage;
-import tools.GenerateRandoms;
 import webdriver.WebDriverFactory;
+
+import java.util.Locale;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 
@@ -15,13 +20,13 @@ public class Third_Test {
     private static final Logger logger = LogManager.getLogger(Third_Test.class);
     WebDriver driver;
     WebDriverFactory webDriverFactory = new WebDriverFactory();
-    GenerateRandoms generateRandoms = new GenerateRandoms();
 
 
     //подключаем класс-обёртку, объединяющую логгирование и assertTrue
     AssertWithLog assertWithLog = null;
     MainPage mainPage = null;
 
+    Faker faker = new Faker(new Locale("it"));
 
     @BeforeEach
     void beforeEach() {
@@ -40,8 +45,8 @@ public class Third_Test {
     @DisplayName("Третий тест домашки: отправка формы")
     void ifTextGotValuesFromForm()  {
 
-        String checkingName = generateRandoms.generateString(10);
-        String checkingEmail = generateRandoms.generateEmail();
+        String checkingName = faker.name().firstName() + " " + faker.name().lastName();
+        String checkingEmail = faker.internet().emailAddress();
 
         mainPage.writeIntoInputName(checkingName);
         mainPage.writeIntoInputEmail(checkingEmail);
@@ -49,10 +54,11 @@ public class Third_Test {
         boolean ifDivContainsValuesWhenDisplayed =
                 mainPage.ifMessageBoxMatchesValuesWhichCameFromForm(checkingName, checkingEmail);
 
-        String checkingName2 = generateRandoms.generateString(8);
-        String checkingEmail2 = generateRandoms.generateEmail();
+        String checkingName2 = faker.name().firstName() + " " + faker.name().lastName();
+        String checkingEmail2 = faker.internet().emailAddress();
 
-        //System.out.printf("%s, %s, %s, %s%n", checkingName, checkingEmail, checkingName2, checkingEmail2);
+       // System.out.printf("1: %s / %s \n 2: %s / %s \n", checkingName, checkingEmail, checkingName2, checkingEmail2 );
+
 
         mainPage.clearInputName();
         mainPage.clearInputEmail();
@@ -67,16 +73,16 @@ public class Third_Test {
 
         assertAll(
                 () -> assertWithLog.assertWithLog( ifDivContainsValuesWhenDisplayed,
-                        "ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed"),
+                        "ifTextGotValuesFromForm > ifDivContainsValuesWhenDisplayed: " + checkingName + " " + checkingEmail),
 
                 () -> assertWithLog.assertWithLog( ifDivDoesntContainValuesWhenHidden,
-                        "ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden")
+                        "ifTextGotValuesFromForm > ifDivDoesntContainValuesWhenHidden: " + checkingName2 + " " + checkingEmail2)
         );
     }
 
 
     @AfterEach
     void tearDown() {
-        driver.close();
+        if (driver != null) driver.close();
     }
 }
